@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to Heaven</h1>
+        <p>Hai Sobat Selamat Datang Di Heaven</p>
+        <p>Sebuah Website Menghitung Luas & Keliling Segitiga</p>
+    </header>
+    <br><br>
+    <main class="main-content">
+        <div class="top-sections">
+            <section class="left-section">
+                <header>
+                    <h1 class="luas-segitiga-header">Luas Segitiga</h1>
+                    <article class="arc">
+                        <div class="luas-segitiga-img"></div>
+                        <p class="p">Rumus Luas Segitiga:</p>
+                        <p class="p">L = 1/2 x a x t</p>
+                        <p class="p">Keterangan:</p>
+                        <p class="p">L = Luas</p>
+                        <p class="p">a = alas</p>
+                        <p class="p">t = tinggi</p>
+                    </article>
+                    <hr />
+                    <form>
+                        <header>
+                            <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                        </header>
+                        <div class="input-wrapper">
+                            <label for="panjang-alas">Panjang Alas:</label>
+                            <input id="panjang-alas" type="number" name="panjang-alas"/>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="tinggi">Tinggi:</label>
+                            <input id="tinggi" type="number" name="tinggi"/>
+                        </div>
+                        <p id="luas-result">Hasil Perhitungan:</p>
+                        <button type="submit">Hitung</button>
+                    </form>
+                </header>
+            </section>
+
+            <section class="right-section">
+                <header>
+                    <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
+                    <article class="arc">
+                        <div class="keliling-segitiga-img"></div>
+                        <p class="p">Rumus Keliling Segitiga:</p>
+                        <p class="p">K = a + b + c</p>
+                        <p class="p">Keterangan:</p>
+                        <p class="p">K = Keliling</p>
+                        <p class="p">a = Sisi A</p>
+                        <p class="p">b = Sisi B</p>
+                        <p class="p">c = Sisi C</p>
+                    </article>
+                    <hr />
+                    <form>
+                        <header>
+                            <h1 class="keliling-segitiga-form-header">Hitung Keliling Segitiga</h1>
+                        </header>
+                        <div class="input-wrapper">
+                            <label for="sisi-a">Sisi A:</label>
+                            <input id="sisi-a" type="number" name="sisi-a"/>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="sisi-b">Sisi B:</label>
+                            <input id="sisi-b" type="number" name="sisi-b"/>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="sisi-c">Sisi C:</label>
+                            <input id="sisi-c" type="number" name="sisi-c"/>
+                        </div>
+                        <p id="keliling-result">Hasil Perhitungan:</p>
+                        <button type="submit">Hitung</button>
+                    </form>
+                </header>
+            </section>
+        </div>
+
+        <script src="javascript\script.js"></script>
+    </main>
+</body>
+</html>
